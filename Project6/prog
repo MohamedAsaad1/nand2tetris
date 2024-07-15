@@ -1,0 +1,4 @@
+run: compile
+	java Assembler $(asmfile)
+compile: Assembler.java
+	javac Assembler.java
